@@ -1,0 +1,8 @@
+﻿Definir clase
+Una clase es una plantilla o modelo que se utiliza para crear objetos. Define los atributos (variables) y métodos (funciones) que tendrán los objetos. Por ejemplo, una clase Celular define las características y comportamientos de un celular.
+
+Definir encapsulamiento
+El encapsulamiento es el principio que permite proteger los datos de una clase, evitando el acceso directo desde fuera. Se logra usando modificadores de acceso como private y public, y permite controlar el acceso a los atributos mediante métodos.
+
+Definir constructor
+Un constructor es un método especial que se ejecuta automáticamente cuando se crea un objeto de una clase. Se utiliza para inicializar los atributos del objeto.

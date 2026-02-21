@@ -1,0 +1,38 @@
+﻿#include <iostream>
+#include "Celular.h"
+
+using namespace std;
+
+// Constructor
+Celular::Celular(string marca, string modelo, int almacenamiento, float tamanoPantalla, bool encendido)
+{
+    this->marca = marca;
+    this->modelo = modelo;
+    this->almacenamiento = almacenamiento;
+    this->tamanoPantalla = tamanoPantalla;
+    this->encendido = encendido;
+}
+
+// Método encender
+void Celular::encender()
+{
+    encendido = true;
+    cout << "El celular se ha encendido." << endl;
+}
+
+// Método apagar
+void Celular::apagar()
+{
+    encendido = false;
+    cout << "El celular se ha apagado." << endl;
+}
+
+// Método mostrar información
+void Celular::mostrarInformacion()
+{
+    cout << "Marca: " << marca << endl;
+    cout << "Modelo: " << modelo << endl;
+    cout << "Almacenamiento: " << almacenamiento << " GB" << endl;
+    cout << "Tamaño de pantalla: " << tamanoPantalla << " pulgadas" << endl;
+    cout << "Estado: " << (encendido ? "Encendido" : "Apagado") << endl;
+}
